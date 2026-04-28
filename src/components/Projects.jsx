@@ -8,6 +8,15 @@ const PROJECTS = [
     live:   'https://real-time-chat-app-0b05.onrender.com/',
     delay:  '0s',
   },
+  {
+  num: '02',
+  title: 'Blogify — Blog Platform',
+  desc: 'A full-stack blogging platform with JWT authentication, cover image uploads, password strength validation, and a premium editorial UI built with Node.js and MongoDB.',
+  stack: ['Node.js', 'Express', 'MongoDB', 'EJS'],
+  github: 'https://github.com/Mayank7505703/Blog-app-mern.git',
+  live:   'https://blog-app-mern-8ll3.onrender.com/home',
+  delay:  '0.1s',
+},
 ]
 
 export default function Projects() {
